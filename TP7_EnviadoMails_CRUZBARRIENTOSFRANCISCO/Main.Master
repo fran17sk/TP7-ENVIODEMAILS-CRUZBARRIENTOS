@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="TP7_EnviadoMails_CRUZBARRIENTOSFRANCISCO.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>ENVIADO DE MAIL</title>
+    <link href="Style.css" rel="stylesheet" />
+    <link href="Styles/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="Scripts/bootstrap.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="gradient">
+            <nav class="navbar navbar-dark bg-dark">
+                  <a class="navbar-brand title" href="#">
+                    ENVIANDO MAILS
+                  </a>
+                  <a class="navbar-brand" href="#">
+                    [Iniciar sesion]
+                  </a>
+                </nav>
+            <nav class="Nav-Second">
+                  <a class="item-nav-second" href="#">
+                    Pagina Principal
+                  </a>
+                  <a class="item-nav-second" href="#">
+                    Acerca de
+                  </a>
+                </nav>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
